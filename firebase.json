@@ -1,0 +1,31 @@
+{
+  "hosting": [
+    {
+      "site": "dev-mydemo",
+      "public": "dist/demo",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "site": "stage-mydemo",
+      "public": "dist/demo",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "site": "prod-mydemo",
+      "public": "dist/demo",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
