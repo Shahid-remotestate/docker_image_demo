@@ -8,5 +8,6 @@ import {environment} from "../environments/environment";
 })
 export class AppComponent {
   title = 'demo';
-  name = environment.name
+  name = environment.name;
+  s = 'shahid';
 }
